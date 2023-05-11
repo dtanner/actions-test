@@ -13,3 +13,6 @@ jobs:
 
       - name: sudo ls
         run: sudo ls /home
+        
+      - name: list users
+        run: cat /etc/passwd
